@@ -1,11 +1,11 @@
-About r-rmdpartials
-===================
+About r-rmdpartials-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rmdpartials-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rubenarslan/rmdpartials
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rmdpartials-feedstock/blob/main/LICENSE.txt)
 
 Summary: Use 'rmarkdown' partials, also know as child documents in 'knitr', so you can make components for HTML, PDF, and Word documents. The package provides various helper functions to make certain functions easier. You may want to use this package, if you want to flexibly summarise objects using a combination of figures, tables, text, and HTML widgets. Unlike HTML widgets, the output is Markdown and can hence be turn into other output formats than HTML.
 
