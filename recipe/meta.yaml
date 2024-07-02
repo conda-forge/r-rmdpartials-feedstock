@@ -1,6 +1,5 @@
 {% set version = '0.5.8' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-rmdpartials
@@ -13,8 +12,7 @@ source:
   sha256: 36473cdb2d930bbefa4a38eaef8eb391804889b25c0333d3402e3618e605bc95
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
