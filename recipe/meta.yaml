@@ -1,4 +1,4 @@
-{% set version = '0.5.8' %}
+{% set version = "0.6.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rmdpartials_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rmdpartials/rmdpartials_{{ version }}.tar.gz
-  sha256: 36473cdb2d930bbefa4a38eaef8eb391804889b25c0333d3402e3618e605bc95
+  sha256: 9736bc05820ef1b541114a4b990ef3583ba95e2afae9d831963de1f75e503757
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -40,12 +40,8 @@ test:
 about:
   home: https://github.com/rubenarslan/rmdpartials
   license: MIT
-  summary: Use 'rmarkdown' partials, also know as child documents in 'knitr', so you can make
-    components for HTML, PDF, and Word documents. The package provides various helper
-    functions to make certain functions easier. You may want to use this package, if
-    you want to flexibly summarise objects using a combination of figures, tables, text,
-    and HTML widgets. Unlike HTML widgets, the output is Markdown and can hence be turn
-    into other output formats than HTML.
+  summary: Use 'rmarkdown' partials, also know as child documents in 'knitr', so you can make components for HTML, PDF, and Word documents. The package provides various helper functions to make certain functions easier. You may want to use this package, if you want to flexibly summarise objects using a combination of 
+    figures, tables, text, and HTML widgets. Unlike HTML widgets, the output is Markdown and can hence be turn into other output formats than HTML.
   license_family: MIT
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
